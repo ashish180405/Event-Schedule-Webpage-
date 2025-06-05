@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header Section */
+header{
+    width: 100vw;
+    height: 10rem;
+    background-color: greenyellow;
+    padding: 15px;
+}
+
+header h1, header p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Nav section */
+nav{
+    background-color: black;
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 3rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+/* About section */
+.box{
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.box h2{
+    color: rgb(53, 128, 175);
+}
+
+.about h2, .speaker h2{
+    margin-bottom: 20px;
+}
+
+.about p{
+    line-height: 2rem;
+}
+
+/* event schedule section */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: rgb(161, 152, 152);
+    text-align: left;
+}
+
+table th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* speaker section */
+.speaker span{
+    color: rgb(53, 128, 175);
+    font-weight: bold;
+}
+
+.speaker p{
+    margin-bottom: 20px;
+}
+
+/* contact section */
+form label, input, button{
+    display: block;
+}
+
+.form{
+    width: 80%;
+    margin: 10px auto;
+}
+
+form input, label, textarea, button{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+form input, button{
+    padding: 10px;
+}
+
+form button{
+    border: none;
+    background-color: rgb(53, 128, 175);
+    color: #fff;
+}
+
+form input, textarea{
+    box-sizing: border-box;
+    border: 1px solid silver;
+}
+
